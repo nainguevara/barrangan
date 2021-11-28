@@ -3,7 +3,15 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "Roboto": ["Roboto"]
+      },
+      colors: {
+        "green-main": "#054439",
+        "yellow-main":"#F0DF73"
+      },
+    },
   },
   variants: {
     extend: {},
