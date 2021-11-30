@@ -181,7 +181,7 @@ export default function Home() {
               </div>
               <div>
               <div className="h-[130px] flex justify-center items-center" >
-                <p className="text-[.1.5rem] font-Roboto text-white">COMPOSICION EN ANALISIS </p>
+                <p className="text-[1.5rem] font-Roboto text-white">COMPOSICION EN ANALISIS </p>
               </div>
               <div className="bg-yellow-main h-50px mb-2 w-[200px] rounded-md mx-auto">
               <a href="https://wa.me/573234755609?text=Mas%20informacion%20sobre%20el%20palmiste" target="_blank" className="text-[1.5rem] font-Roboto rounded-md block text-center font-bold">Saber mas</a>
@@ -213,7 +213,7 @@ export default function Home() {
                 <div  className="text-center">
                   <i  aria-hidden  className="fas fa-home  text-[3rem] text-white"></i>
                   <p className="text-white font-Roboto font-bold">DIRECCION:</p>
-                  <p className="text-white font-Roboto">Carrera 17 N 12-09 B moriches (barrancabermeja)</p>
+                  <p className="text-white font-Roboto">Carrera 17 N 12-09 B moriches (curamal - meta)</p>
                 </div>
                 <div  className="text-center">
                   <i aria-hidden  className="far fa-envelope text-[3rem] text-white"></i>
@@ -236,7 +236,7 @@ export default function Home() {
           />
         </div>
         <div className="mt-4 text-center "> 
-          <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>barrancabermeja, colombia<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
+          <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>curamal - meta<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
         </div>
         <div className="mt-4 flex justify-around w-full">
           <a href="https://www.facebook.com/profile.php?id=100069099101511 " target="_blank" >
