@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Slider = ({ img }) => {
     return (
-        <div className="min-w-full overflow-hidden duration-100 ease-in-out max-h-500 ">
+        <div className="min-w-full overflow-hidden duration-100 ease-in-out max-h-500 img-wrapper ">
             <Image 
                 src={ img }
                 alt="img1"
