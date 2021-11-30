@@ -213,7 +213,7 @@ export default function Home() {
                 <div  className="text-center">
                   <i  aria-hidden  className="fas fa-home  text-[3rem] text-white"></i>
                   <p className="text-white font-Roboto font-bold">DIRECCION:</p>
-                  <p className="text-white font-Roboto">Carrera 17 N 12-09 B moriches (curamal - meta)</p>
+                  <p className="text-white font-Roboto">Carrera 17 N 12-09 B moriches (cumaral - meta)</p>
                 </div>
                 <div  className="text-center">
                   <i aria-hidden  className="far fa-envelope text-[3rem] text-white"></i>
@@ -236,7 +236,7 @@ export default function Home() {
           />
         </div>
         <div className="mt-4 text-center "> 
-          <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>curamal - meta<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
+          <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>cumaral - meta<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
         </div>
         <div className="mt-4 flex justify-around w-full">
           <a href="https://www.facebook.com/profile.php?id=100069099101511 " target="_blank" >
