@@ -7,7 +7,11 @@ import we from "../public/img/nosotros.png";
 import productOne from "../public/img/nutricion-cera-b.jpeg";
 import productTwo from "../public/img/palmiste.jpeg";
 import footer from "../public/img/footer.png";
+import CartOne from "../public/img/camion-1.jpeg"
+import CartTwo from "../public/img/camion-2.jpeg"
+import CartThree  from "../public/img/camion-3.jpeg"
 import { MenuMobile } from '../components/MenuMobile';
+import { SliderShow } from '../components/sliderShow';
 
 export default function Home() {
   return (
@@ -68,8 +72,11 @@ export default function Home() {
             <div className="w-[100%] md:w-[40%] h-full flex flex-col justify-center items-center">
               <div className="md:ml-8">
                 <h1 className="md:text-[2rem] md:text-left text-[1.5rem] text-white font-bold font-Roboto text-center">Lo mejor para tu ganado </h1>
-                <p className="text-white font-Roboto text-center md:text-left">orem Ipsum is simply dummy text of the printing and 
-                typesettin orem Ipsum is simply dummy text of the printing and 
+                <p className="text-white font-Roboto text-center md:text-left">
+                  En suplementos alimenticios a base de torta de palmiste, palmiste alto grasa,
+                  como fuentes de energia y proteína, fibra soluble e insoluble, elementos básicos para el desarrollo de animales como el ganado
+                  bovino tanto de levante, engorde y como de producción de leche, para aves y equinos
+
                 </p>
               </div>
             </div>
@@ -82,27 +89,15 @@ export default function Home() {
             <p className="font-Roboto text-[1.5rem] text-center">Nosotros</p>
           </div>
           <div className="grid grid-cols-[1fr] md:grid-cols-[1fr,1fr] gap-4 mt-4 mx-2 lg:mx-0">
-            <div className="img-wrapper relative">
-              <Image 
-                 src={ we }
-                 alt="barranga s.a.s"
-                 width={600}
-                 height={500}
-                 objectFit="cover"
-              />
+              <div className="img-wrapper relative">
+                <SliderShow img={[CartOne,CartTwo,CartThree]}/>
               <div className="absolute bg-green-main h-full w-full rounded-md top-0 z-[-1] rotate-6 max-w-[600px]">
 
               </div>
             </div>
             <div>
-              <h2 className="font-Roboto text-[1.5rem]">Somo una empresa</h2>
-              <p className="font-Roboto ">It is a long established fact that a reader will be distracted by the 
-                readable content of a page when looking at its layout. The point of using
-                Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                as opposed to using 'Content here, content here', making it look like 
-                readable English. Many desktop publishing packages and web page editors
-                now use Lorem Ipsum as their default model text, and a search for '
-                lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              <h2 className="font-Roboto text-[1.5rem] font-bold">Somo una empresa</h2>
+              <p className="font-Roboto text-[1.3rem]">Registrada y avalada en el ICA, como fabricante de suplementos alimenticios para ganado bovino de engorde, levante y producción de leche, rico en proteínas, carbohidratos, vitaminas, energía, fibra y grasa.
               </p>
             </div>
           </div>
