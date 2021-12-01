@@ -11,7 +11,7 @@ export const SliderShow = ({ img, controles = false, autoplay = true, velocidad 
 
     const next = useCallback(() => {
             // Comprobar que el slideShow tenga elementos
-            console.log("hola")
+
             if ( sliderShowRef.current.children.length > 0 ) {
                 // Obtener el primer elemento del slideShow
                 const firstElement = sliderShowRef.current.children[0]

@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
         {/* Quienes somos */}
-        <section className="mt-8 xl:container mx-auto" id="quienes-somos"> 
+        <section className="mt-8 mx-4 xl:container xl:mx-auto" id="quienes-somos"> 
           <div className="w-[300px] mx-auto border-b-2 border-yellow-main">
             <h2 className="font-Roboto text-[2rem] font-bold text-center">BARRANGAN S.A.S</h2>
             <p className="font-Roboto text-[1.5rem] text-center">Nosotros</p>
@@ -92,8 +92,10 @@ export default function Home() {
               <div className="img-wrapper relative">
                 <SliderShow img={[CartOne,CartTwo,CartThree]}/>
               <div className="absolute bg-green-main h-full w-full rounded-md top-0 z-[-1] rotate-6 max-w-[600px]">
-
               </div>
+                <a  href="https://drive.google.com/drive/folders/1Aja02PJ3MRphg_KsgUYVPrKwv13ND2iN?usp=sharing" className="bottom-[-15px] right-[0] left-[0] ml-auto mr-auto flex justify-center items-center absolute z-[100] w-[200px] bg-yellow-main h-[50px] rounded-md" target="_blank">
+                  <p className="font-Roboto text-[1.2rem]">Ver mas</p>
+                </a> 
             </div>
             <div>
               <h2 className="font-Roboto text-[1.5rem] font-bold">Somo una empresa</h2>
@@ -225,26 +227,32 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className=" border-t-2 border-yellow-main pt-4 mt-4 grid grid-cols-[1fr] md:grid-cols-[1fr,1fr,1fr] justify-center items-center md:flex-row">
-        <div className="mt-[8px] text-center">
-        <Image 
-            src={logo}
-            alt="logo barrangas"
-            width={120}
-            height={90}
-            objectFit="cover"
-          />
+      <footer>
+        <div className="border-t-2 border-yellow-main pt-4 mt-4 grid grid-cols-[1fr] md:grid-cols-[1fr,1fr,1fr] justify-center items-center md:flex-row">
+          <div className="mt-[8px] text-center">
+          <Image 
+              src={logo}
+              alt="logo barrangas"
+              width={120}
+              height={90}
+              objectFit="cover"
+            />
+          </div>
+          <div className="mt-4 text-center "> 
+            <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>cumaral - meta<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
+          </div>
+          <div className="mt-4 flex justify-around w-full">
+            <a href="https://www.facebook.com/profile.php?id=100069099101511 " target="_blank" >
+              <i aria-hidden  className="fab fa-facebook text-[2rem] text-green-main"></i>
+            </a>
+            <a href="https://wa.me/573234755609?text=Mas%20informacion%20sobre%20la%20nutricion%20deba%20b%20bovinos" target="_blank">
+              <i aria-hidden  className="fab fa-whatsapp text-[2rem] text-green-main"></i>
+            </a>
+          </div>
         </div>
-        <div className="mt-4 text-center "> 
-          <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>cumaral - meta<br/><span className="text-green-main">Politica de proteccion de datos personales</span> </p>
-        </div>
-        <div className="mt-4 flex justify-around w-full">
-          <a href="https://www.facebook.com/profile.php?id=100069099101511 " target="_blank" >
-            <i aria-hidden  className="fab fa-facebook text-[2rem] text-green-main"></i>
-          </a>
-          <a href="https://wa.me/573234755609?text=Mas%20informacion%20sobre%20la%20nutricion%20deba%20b%20bovinos" target="_blank">
-            <i aria-hidden  className="fab fa-whatsapp text-[2rem] text-green-main"></i>
-          </a>
+        <div className="xl:container mx-auto mt-2">
+          <p className="font-Roboto text-center text-[0.8rem]">
+Nuestra empresa esta en la capacidad de realizar la explotación de suplementos alimenticios para ganado de engorde levante y producción de leche. Palmiste, torta de palmiste y otros subproductos de la palma de aceite.</p>
         </div>
       </footer>
     </>
