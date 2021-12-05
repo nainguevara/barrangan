@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import scrollBlock from "./hooks/scrollBlock"
 
-export const MenuMobile = () => {
+export const MenuMobile = ({handleLanguage}) => {
 
     const menuMobile = useRef();
 
@@ -15,8 +15,12 @@ export const MenuMobile = () => {
 
     return (
         <div className="col-span-1 md:hidden">
-            <div className="flex justify-center items-center h-[100%]">
+            <div className="flex justify-around items-center h-[100%]">
                 <i class="fas fa-bars text-[2rem] cursor-pointer" onClick={()=> handlerMenu(true)}></i>  
+                <select className="w-[50px]   md:hidden"  name="lenguage" onChange={ handleLanguage }>  
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                </select>
             </div>
             <div className="bg-green-main absolute left-0 top-0 -translate-x-full min-h-full min-w-full duration-300 ease-in-out z-50 " ref={menuMobile}>
                 <div className="h-[100px]">
