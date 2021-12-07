@@ -27,7 +27,7 @@ export default function Home() {
           <title>Barrangas S.A.S</title>
       </Head>
         <a href="https://wa.me/573234755609?text=Me%20gustaría%20saber%20mas%20de%20sus%20productos" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-        <div className="hidden md:flex justify-around mt-[1rem] border-b-2 border-[#ccc]"> 
+        <div className="hidden md:flex justify-around mt-[1rem] border-b-2 border-[#ccc]"> 5
           <div className="flex w-[400px] justify-between">
               <div className="flex justify-between w-[170px]">
                 <i aria-hidden  className="fab fa-whatsapp text-[1.8rem] text-green-main"></i>

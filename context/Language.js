@@ -21,7 +21,7 @@ const translations = {
         contactoText: "DIRECCION:",
         compositionText:["Proteina","Minimo","18.0%","Grasa","Minimo","2.5%","Fibra","Máximo","12.0%","Cenizas","Máximo","10.0%","Humedad","Máximo","13.0%"],
         politics:"Política de protección de datos personales",
-        politicsText:" Nuestra empresa esta en la capacidad de realizar la explotación de suplementos alimenticios para ganado de engorde levante y producción de leche. Palmiste, torta de palmiste y otros subproductos de la palma de aceite.",
+        politicsText:" Nuestra empresa esta en la capacidad de realizar la exportación de suplementos alimenticios para ganado de engorde levante y producción de leche. Palmiste, torta de palmiste y otros subproductos de la palma de aceite.",
 
     },
     en : {
@@ -41,7 +41,7 @@ const translations = {
         contactoText: "DIRECTION:",
         compositionText:["Protein","Minimum","18.0%","Fat","Minimum","2.5%","Fiber","Maximum","12.0%","Cenizas","Maximum","10.0%","Humidity","Maximum","13.0%"],
         politics:"Personal data protection policy",
-        politicsText:"Our company is in the capacity to carry out the exploitation of nutritional supplements for cattle raising fattening and milk production. Palm kernel, palm kernel cake and other by-products of oil palm."
+        politicsText:"Our company is in the capacity to carry out the export of nutritional supplements for cattle raising fattening and milk production. Palm kernel, palm kernel cake and other by-products of oil palm."
     },
 };
 
