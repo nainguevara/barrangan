@@ -27,7 +27,7 @@ export default function Home() {
           <title>Barrangas S.A.S</title>
       </Head>
         <a href="https://wa.me/573234755609?text=Me%20gustaría%20saber%20mas%20de%20sus%20productos" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-        <div className="hidden md:flex justify-around mt-[1rem] border-b-2 border-[#ccc]"> 5
+        <div className="hidden md:flex justify-around mt-[1rem] border-b-2 border-[#ccc]"> 
           <div className="flex w-[400px] justify-between">
               <div className="flex justify-between w-[170px]">
                 <i aria-hidden  className="fab fa-whatsapp text-[1.8rem] text-green-main"></i>
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <div className="flex justify-between w-[170px]">
                 <i aria-hidden  className="far fa-envelope text-[1.8rem] text-green-main pr-2"></i>
-                <p className="font-Roboto">suplementosbarragan02@gmail.com</p>
+                <p className="font-Roboto">roman@palmisteysuplementosbarrangan.com</p>
               </div>
           </div>
           <div className="flex w-[100px] justify-center">
@@ -147,29 +147,29 @@ export default function Home() {
                 <table class="table-auto w-full text-center my-4">
                   <tbody>
                     <tr className="bg-[#F0DF7330]">
-                      <td>{texts.compositionText[0]}</td>
-                      <td>{texts.compositionText[1]}</td>
-                      <td>{texts.compositionText[2]}</td>
+                      <td>{texts.compositionTextOne[0]}</td>
+                      <td>{texts.compositionTextOne[1]}</td>
+                      <td>{texts.compositionTextOne[2]}</td>
                     </tr>
                     <tr className="bg-[#F0DF73]">
-                      <td>{texts.compositionText[3]}</td>
-                      <td>{texts.compositionText[4]}</td>
-                      <td>{texts.compositionText[5]}</td>
+                      <td>{texts.compositionTextOne[3]}</td>
+                      <td>{texts.compositionTextOne[4]}</td>
+                      <td>{texts.compositionTextOne[5]}</td>
                     </tr>
                     <tr className="bg-[#F0DF7330]">
-                      <td>{texts.compositionText[6]}</td>
-                      <td>{texts.compositionText[7]}</td>
-                      <td>{texts.compositionText[8]}</td>
+                      <td>{texts.compositionTextOne[6]}</td>
+                      <td>{texts.compositionTextOne[7]}</td>
+                      <td>{texts.compositionTextOne[8]}</td>
                     </tr>
                     <tr className="bg-[#F0DF73]">
-                      <td>{texts.compositionText[9]}</td>
-                      <td>{texts.compositionText[10]}</td>
-                      <td>{texts.compositionText[11]}</td>
+                      <td>{texts.compositionTextOne[9]}</td>
+                      <td>{texts.compositionTextOne[10]}</td>
+                      <td>{texts.compositionTextOne[11]}</td>
                     </tr>
                     <tr className="bg-[#F0DF7330]">
-                      <td>{texts.compositionText[12]}</td>
-                      <td>{texts.compositionText[13]}</td>
-                      <td>{texts.compositionText[14]}</td>
+                      <td>{texts.compositionTextOne[12]}</td>
+                      <td>{texts.compositionTextOne[13]}</td>
+                      <td>{texts.compositionTextOne[14]}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -190,13 +190,37 @@ export default function Home() {
                   />
                   <p className="text-[1.5rem] font-bold text-white border-b-2 border-yellow-main mx-8">Palmiste</p>
                 </div>
-                <div className="mt-8">
-                  <div className="h-[130px] flex justify-center items-center" >
-                    <p className="text-[1.5rem] font-Roboto text-white">{texts.composition}</p>
-                  </div>
-                  <div className="bg-yellow-main h-50px mb-2 w-[200px] rounded-md mx-auto">
+                <table class="table-auto w-full text-center my-4">
+                  <tbody>
+                    <tr className="bg-[#F0DF7330]">
+                      <td>{texts.compositionTextTwo[0]}</td>
+                      <td>{texts.compositionTextTwo[1]}</td>
+                      <td>{texts.compositionTextTwo[2]}</td>
+                    </tr>
+                    <tr className="bg-[#F0DF73]">
+                      <td>{texts.compositionTextTwo[3]}</td>
+                      <td>{texts.compositionTextTwo[4]}</td>
+                      <td>{texts.compositionTextTwo[5]}</td>
+                    </tr>
+                    <tr className="bg-[#F0DF7330]">
+                      <td>{texts.compositionTextTwo[6]}</td>
+                      <td>{texts.compositionTextTwo[7]}</td>
+                      <td>{texts.compositionTextTwo[8]}</td>
+                    </tr>
+                    <tr className="bg-[#F0DF73]">
+                      <td>{texts.compositionTextTwo[9]}</td>
+                      <td>{texts.compositionTextTwo[10]}</td>
+                      <td>{texts.compositionTextTwo[11]}</td>
+                    </tr>
+                    <tr className="bg-[#F0DF7330]">
+                      <td>{texts.compositionTextTwo[12]}</td>
+                      <td>{texts.compositionTextTwo[13]}</td>
+                      <td>{texts.compositionTextTwo[14]}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="bg-yellow-main h-50px mb-2 w-[200px] rounded-md mx-auto">
                   <a href="https://wa.me/573234755609?text=Mas%20informacion%20sobre%20el%20palmiste" target="_blank" className="text-[1.5rem] font-Roboto rounded-md block text-center font-bold">{texts.knowMore}</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -229,7 +253,7 @@ export default function Home() {
                   <div  className="text-center">
                     <i aria-hidden  className="far fa-envelope text-[3rem] text-white"></i>
                     <p className="text-white font-Roboto font-bold">EMAIL:</p>
-                    <p className="text-white font-Roboto">suplementosbarragan02@gmail.com</p>
+                    <p className="text-white font-Roboto">roman@palmisteysuplementosbarrangan.com</p>
                   </div>
                 </div>
               </div>
@@ -248,7 +272,7 @@ export default function Home() {
               />
             </div>
             <div className="mt-4 text-center "> 
-              <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:suplementosbarragan02@gmail.com <br/>cumaral - meta<br/><span className="text-green-main">{texts.politics}</span> </p>
+              <p className="font-Roboto">Carrera 17 N 12-09 B moriches<br/>Tel:3127380588 - email:roman@palmisteysuplementosbarrangan.com <br/>cumaral - meta<br/><span className="text-green-main">{texts.politics}</span> </p>
             </div>
             <div className="mt-4 flex justify-around w-full">
               <a href="https://www.facebook.com/profile.php?id=100069099101511 " target="_blank" >
